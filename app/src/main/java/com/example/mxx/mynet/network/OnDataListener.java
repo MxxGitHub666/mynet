@@ -15,7 +15,6 @@ public interface OnDataListener {
      * @param showLoad Load显示
      */
     void onStart(int requestTag, int showLoad);
-
     /**
      * 请求成功
      *

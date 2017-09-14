@@ -34,6 +34,7 @@ public class HttpManager {
         return httpManager;
     }
 
+
     public static RequestHandle doPost(final int requestTag, RequestParams params, final OnDataListener onDataListener, final int showLoad){
 
         client.setMaxRetriesAndTimeout(0,5000);
