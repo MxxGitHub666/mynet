@@ -33,8 +33,6 @@ public class MainActiviry extends Activity implements OnDataListener{
     protected ArrayList<RequestHandle> requestHandleArrayList = new ArrayList<>();
     private RequestAction requestAction= new RequestAction();
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
